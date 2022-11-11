@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://m.media-amazon.com/images/I/61BizRAxIPL.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Belgrano', serif;
+    /* color: rgb(160, 47, 47); */
+
+}
+h1{
+    font-size: 5rem;
+    text-align: center;
+    color: rgb(51, 8, 243);
+}
+#home-btn{
+    font-size: 30px;
+}

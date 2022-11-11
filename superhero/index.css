@@ -1,0 +1,27 @@
+body{
+    background-image: url('https://cdn.vox-cdn.com/thumbor/SLhFTTOcnZnb-PPIiJumu0WDY4Y=/85x0:1014x619/1200x800/filters:focal(85x0:1014x619)/cdn.vox-cdn.com/uploads/chorus_image/image/45660688/spiderman-marvel.0.0.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Belgrano', serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(5, 4, 4);
+}
+#searchKey{
+    display: flex;
+    text-align: center;
+    width: 30vw;
+    height: 5vh;  
+    font-size: 1.5rem;
+    box-shadow: 0px 20px 30px aliceblue;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+h1{
+    align-items: center;
+    display: flex;
+    color: rgb(241, 234, 234);
+    cursor: pointer;
+    text-decoration: underline;
+}
