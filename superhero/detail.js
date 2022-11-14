@@ -22,7 +22,7 @@ const mainContainer=document.getElementById("main-container")
         var resp= await fetch(`${fetchCharacterApi}/${id}?ts=${ts}&apikey=${publicKey}&hash=${hash}`);
         var data= await resp.json();
         var results=data.data.results
-            console.log(results)
+        console.log(results)
         addToList(results)
     }
     function addToList(results){
@@ -40,3 +40,10 @@ const mainContainer=document.getElementById("main-container")
                         </div>`
             
     }
+
+
+    var queryObject = getParams(window.location.href);
+   
+
+
+   fetchsuperheroWithId(queryObject.id);

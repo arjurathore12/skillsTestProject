@@ -21,7 +21,19 @@ body{
 h1{
     align-items: center;
     display: flex;
-    color: rgb(241, 234, 234);
+    color: rgb(247, 7, 7);
     cursor: pointer;
     text-decoration: underline;
+}
+h1:hover{
+    color: white;
+}
+#fav-link{
+    color: rgb(233, 14, 14);
+    font-size: 2rem;
+    display:flex;
+    justify-content: right;
+}
+#fav-link:hover{
+    color: rgb(251, 251, 255);
 }

@@ -8,10 +8,12 @@
     <title>Superhero Page</title>
     
     <link rel="stylesheet" href="index.css">
+     <script type="text/javascript" src="localStorageModule.js"></script>
 </head>
 
 <body>
-    <h1 onclick="this.innerHTML='Search Superhero whatever you want'">Superhero Hunter Game</h1>
+    <h1 onclick="this.innerHTML='Search Superhero whatever you want & add to your favourite list!!'">Superhero Hunter Game</h1>
+    <a href= "favourite.html" target="_blank" id="fav-link">Your's Favourite Superhero </a>
     <!-- "this" keyword used for creativity -->
     <nav>
         <input type="text" name="searchKey" id="searchKey" placeholder="Min. two Character required">
@@ -28,8 +30,9 @@
         </ol>
     </div>
 
-    <script src="index.js"></script>
     <script src="favourite.js"></script>
+    <script src="index.js"></script>
+    
 </body>
 
 </html>
